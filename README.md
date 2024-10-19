@@ -9,7 +9,7 @@ With `colima` and `act` to work in Macbook with Silicon chips:
 
 ## Events triggering workflows
 
-| Webhook event payload  | Activity types | `GITHUB_SHA` | `GITHUB_REF` |
+| Event workflow  | Activity types | `GITHUB_SHA` | `GITHUB_REF` |
 | ---------------------- | -------------- | ------------ |------------- |
 | `branch_protection_rule` | <ul><li>`created`</li><li>`edited`</li><li>`deleted`</li></ul> | Last commit on default branch | Default branch |
 | `check_run` | <ul><li>`created`</li><li>`rerequested`</li><li>`completed`</li><li>`requested_action`</li></ul> | Last commit on default branch | Default branch |
